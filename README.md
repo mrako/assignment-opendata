@@ -26,7 +26,7 @@ For this task you will have to make a request to `/events`. The event changes on
 
 Your task is simply to create a visualization of the data. Return your task as code (github repository address preferred) and a webpage where we can see the results.
 
-Can you come up with what the data is?
+Can you find out what the data is?
 
 ## Hints
 
