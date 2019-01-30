@@ -1,16 +1,20 @@
 # Eficode Open Data Task 2019
 
-synopsis: we have messed up, your task is to create a visualization. what is the data?
+We at Eficode had a good will to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour.
+
+What we were not able to, was to show any visualization of the data, nor were we able to show any history of the information collected. For this, **we need your help**.
 
 ## Prerequisites
 
-To access the data you need to `/signup` to our API. The signup is easy, you will send your email and a password to our signup endpoint `https://opendata.hopefully.works/api/signup`. As a return message you will receive an *accessToken*, which you will use for the subsequent requests.
+To access the data you need to `/signup` to our API. The signup is easy, you will send your email and a password to our signup endpoint `https://opendata.hopefully.works/api/signup`. As a return message you will receive an **accessToken**, which you will use for the subsequent requests.
 
 Don't worry if you lose the token, you can always `/login` with your email and password to receive a new token. The login endpoint is here `https://opendata.hopefully.works/api/login`.
 
 ## The data
 
-For this task you will have to make a request to `/events`. The event changes once per hour, and contains data from four different sensors:
+For this task you will have to make a request to `/events` to receive the JSON response below. The event changes once per hour, and contains data from four different sensors.
+
+To be able to access the `/events`, you will have to set a request header using the **accessToken** you received when signing up (or logging in): `Authentication: Bearer <your accessToken>`.
 
 ```
 {
@@ -24,11 +28,12 @@ For this task you will have to make a request to `/events`. The event changes on
 
 ## Your task
 
-Your task is simply to create a visualization of the data. Return your task as code (github repository address preferred) and a webpage where we can see the results.
+Your task is to create a visualization of the data. Return your task as code ([github](https://www.github.com) repository address preferred) and a webpage from which we can see your visualization of the data.
 
-Can you find out what the data is?
+Ah yes, and by the way can you find out what the data is?
 
 ## Hints
 
-* To show the current event easily you might want to use a simple cloud service like [Heroku]().
+* If you have no idea what to do, you might want to use a simple cloud service like [Heroku](https://www.heroku.com/).
 * If you want to store the events and show also historical data, you will probably need a simple database.
+* Our magic words are [react](https://reactjs.org/), [nodejs](https://nodejs.org) and [docker](https://www.docker.com/), but don't want limit your selected tech stack any way.
