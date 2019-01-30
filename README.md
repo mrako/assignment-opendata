@@ -6,9 +6,15 @@ What we were not able to, was to show any visualization of the data, nor were we
 
 ## Prerequisites
 
-To access the data you need to `/signup` to our API. The signup is easy, you will send your email and a password to our signup endpoint `https://opendata.hopefully.works/api/signup`. As a return message you will receive an **accessToken**, which you will use for the subsequent requests.
+To access the data you need to `/signup` to our API. The signup is easy; you **POST** your email and a password **as JSON** in the request body into our signup endpoint `https://opendata.hopefully.works/api/signup`. As a return message you will receive an **accessToken**, which you will have to use for the subsequent requests.
 
-Don't worry if you lose the token, you can always `/login` with your email and password to receive a new token. The login endpoint is here `https://opendata.hopefully.works/api/login`.
+```
+POST /api/signup
+Content-type: application/json
+{ "email": "your.email@address", "password": "yourselectedpassword" }
+```
+
+Don't worry if you lose the token, you can always `/login` with your email and password to receive a new token. The login endpoint is here `https://opendata.hopefully.works/api/login`, and works with the same request body in JSON format.
 
 ## The data
 
