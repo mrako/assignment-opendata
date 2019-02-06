@@ -42,4 +42,4 @@ Ah yes, and by the way can you find out what the data is?
 
 * If you have no idea what to do, you might want to use a simple cloud service like [Heroku](https://www.heroku.com/).
 * If you want to store the events and show also historical data, you will probably need a simple database.
-* Our magic words are [react](https://reactjs.org/), [nodejs](https://nodejs.org) and [docker](https://www.docker.com/), but don't want limit your selected tech stack any way.
+* Our magic words are [react](https://reactjs.org/), [nodejs](https://nodejs.org) and [docker](https://www.docker.com/), but don't want limit your selected tech stack in any way.
