@@ -20,7 +20,7 @@ Don't worry if you lose the token, you can always `/api/login` with your email a
 
 For this task you will have to make a request to `/api/events` to receive the JSON response below. The event changes once per hour, and contains data from four different sensors.
 
-To be able to access the `/api/events`, you will have to set a request header using the **accessToken** you received when signing up (or logging in): `Authentication: Bearer <your accessToken>`.
+To be able to access the `/api/events`, you will have to set a request header using the **accessToken** you received when signing up (or logging in): `Authorization: Bearer <your accessToken>`.
 
 ```
 {
