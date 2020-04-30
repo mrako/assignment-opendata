@@ -1,6 +1,6 @@
 # Eficode Open Data Task 2019
 
-We at Eficode had a good will to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour.
+We had a good will to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour.
 
 What we were not able to, was to show any visualization of the data, nor were we able to show any history of the information collected. For this, **we need your help**.
 
