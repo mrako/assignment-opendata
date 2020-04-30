@@ -1,4 +1,4 @@
-# Eficode Open Data Task 2019
+# Assignment: Open Data
 
 We had a good will to create a system that would report a certain sensor data over around the internet. The result is a service that returns changing sensor data every hour.
 
